@@ -1,14 +1,17 @@
-# SQL Layoffs Data Analysis
+# Layoffs Data Analysis Project
 
-This project focuses on data cleaning and exploratory analysis using only SQL.
+This is an end-to-end data analysis project based on layoffs data in the tech industry.
 
-## Files
-- `data/layoffs.csv`: Raw dataset.
-- `sql/data_cleaning.sql`: All cleaning steps including handling duplicates, nulls, and formatting.
-- `sql/exploratory_analysis.sql`: Insights such as top companies, countries, industries, and trends over time.
+## 📁 Structure
+- `data/layoffs.csv`: Original dataset used for analysis.
+- `sql/data_cleaning.sql`: SQL queries to clean and standardize the data.
+- `sql/exploratory_analysis.sql`: SQL queries for exploratory data analysis (EDA).
 
-## Tools Used
+## 🔍 Key Insights
+- Companies with the highest layoffs
+- Trends by industry, country, and year
+- Rolling monthly totals of layoffs
+- Percentage layoffs across funding stages
+
+## 🛠️ Tools Used
 - MySQL
-
-## Objective
-To clean and analyze tech layoff data to identify patterns and trends using SQL only.
